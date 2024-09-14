@@ -27,6 +27,10 @@ const Home = () => {
             alt="doctor image"
             className="w-full object-cover object-center"
           />
+          {/* <div 
+          style={{borderRadius:"150px 200px 183px 149px"}}
+           className="h-[100px] w-[100px] bg-blue-500">
+          </div> */}
         </div>
       </div>
     </div>
