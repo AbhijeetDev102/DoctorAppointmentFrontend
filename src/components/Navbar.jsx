@@ -18,6 +18,14 @@ const Navbar = () => {
       path: "/contact",
       value: "Contact Us",
     },
+    {
+      path: "/partner",
+      value: "Partner",
+    },
+    {
+      path: "/apppintment",
+      value: "Appointment",
+    },
   ];
   
   const matchRoute = (route) => {
@@ -38,6 +46,7 @@ const Navbar = () => {
                 {navItems?.map((val, ind) => (
                   <li>
                     <Link
+                      key={ind}
                       to={val?.path}
                       className={` font-medium ${
                         matchRoute(val?.path)
